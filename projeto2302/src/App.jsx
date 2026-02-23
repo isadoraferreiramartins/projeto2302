@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 
-import Consultaendereco from './COMPONENTES/Consultaendereco'
-import APIexecRaposa from './COMPONENTES/APIexecRaposa'
-import APIexec1 from './COMPONENTES/APIexec1'
-import Combustivel from './COMPONENTES/Combustivel'
+
+import Consultaendereco from './Components/Consultaendereco'
+import APIexecRaposa from './Components/APIexecRaposa'
+import APIexec1 from './Components'
+import Combustivel from './Components/Combustivel'
+import GestaoProdutos from './Components/GestaoProdutos'
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
       <APIexecRaposa />
       <APIexec1 />
       <Combustivel />
+      <GestaoProdutos />
     </div>
   )
 }
